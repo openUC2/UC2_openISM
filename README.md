@@ -99,42 +99,8 @@ dpi_output_format=0x070027
 
 Below we describe how the device can be build and assembled in order to replicate the whole system as shown in the rendering above. One needs additional parts that can be found in the core [openUC2 repository](https://github.com/bionanoimaging/UC2-GIT).
 
-
-## Bill of material
-
-Below you will find all components necessary to build this device
-
-### 3D printing files
-
-All these files need to be printed. We used a Prusa i3 MK3 using PLA Prusament (Galaxy Black) at layer height x.x mm and infill xx%.
-
-Parts to print:
-
-* 1× [openISM AnyBeam Mount](./STL/20_Cube_insert_openISM_AnyBeamMount.stl)
-* 1× [Cube insert openISM vase v3](./STL/20_Cube_insert_openISM_vase_v3.stl)
-
-
-### Additional parts
-This is used in the current version of the setup
-
-(This is for the Anybeam, since the Sony projector seems to be discontinued)
-
-|  Type | Details  |  Price | Link  |
-|---|---|---|---|
-| MEMS | Nebra AnyBeam HAT |  200 € | [Pi Supply](https://uk.pi-supply.com/products/nebra-anybeam-hat-laser-projector-for-the-raspberry-pi?lang=de)  |
-| Raspberry Pi | Raspi+SD-Card+Case+Powersupply(for DMD+Raspi, 5V, >=3A!) |  70 € | [Reichelt](https://www.reichelt.de/raspberry-pi-4-b-4x-1-5-ghz-1-gb-ram-wlan-bt-rasp-pi-4-b-1gb-p259874.html?PROVID=2788&gclid=Cj0KCQiAz53vBRCpARIsAPPsz8X9hCOt9yVVB_WqLCmKSs2e-KuThVnrMEtl2TRbAUTqtVoNZU3zM3YaAg2ZEALw_wcB&&r=1)  |
-| "Scan" lens | 1x Achromatic 1 inch Lens, f=30mm |  82 € | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-030-A)  |
-| 5mm ball magnets  | 8x Neodym Ball Magnets |  5 € | [Various]()  |
-| 6mm Rods | 20mm Rods (ferromagnetic/galvanized), 6mm diameter   |  40 € | [Thorlabs, Edmund Optics ?]()  |
-| M3 Screws | Various |  1 € | [Various]()  |
-
-
-### Design files
-The original design files are in the [INVENTOR](./INVENTOR) folder. *FOR ANOTHER FORMAT, GET YOUR OWN FOLDER.*
-
-
-### Electronics
-### Having a look into the MEMS-based laser projector (Sony)
+## Electronics
+### Having a look into the MEMS-based laser projector (old version with Sony)
 
 
 <p align="center">
@@ -154,6 +120,42 @@ The original design files are in the [INVENTOR](./INVENTOR) folder. *FOR ANOTHER
 </p>
 
 ***Fig 3:*** *Beam coming out of the projector*
+
+
+## Bill of material
+
+Below you will find all components necessary to build this device
+
+### 3D printing files
+
+All these files need to be printed. We used a Prusa i3 MK3 using PLA Prusament (Galaxy Black) at layer height x.x mm and infill xx%.
+
+Parts to print:
+
+* 1× [openISM AnyBeam Mount](./STL/20_Cube_insert_openISM_AnyBeamMount.stl)
+* 1× [Cube insert openISM vase v3](./STL/20_Cube_insert_openISM_vase_v3.stl)
+
+
+### Additional parts
+This is used in the current version of the setup
+
+<strong>(This is for the Anybeam, since the Sony projector seems to be discontinued)</strong>
+
+|  Type | Details  |  Price | Link  |
+|---|---|---|---|
+| MEMS | Nebra AnyBeam HAT |  200 € | [Pi Supply](https://uk.pi-supply.com/products/nebra-anybeam-hat-laser-projector-for-the-raspberry-pi?lang=de)  |
+| Raspberry Pi | Raspi+SD-Card+Case+Powersupply(for DMD+Raspi, 5V, >=3A!) |  70 € | [Reichelt](https://www.reichelt.de/raspberry-pi-4-b-4x-1-5-ghz-1-gb-ram-wlan-bt-rasp-pi-4-b-1gb-p259874.html?PROVID=2788&gclid=Cj0KCQiAz53vBRCpARIsAPPsz8X9hCOt9yVVB_WqLCmKSs2e-KuThVnrMEtl2TRbAUTqtVoNZU3zM3YaAg2ZEALw_wcB&&r=1)  |
+| "Scan" lens | 1x Achromatic 1 inch Lens, f=30mm |  82 € | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-030-A)  |
+| 5mm ball magnets  | 8x Neodym Ball Magnets |  5 € | [Various]()  |
+| 6mm Rods | 20mm Rods (ferromagnetic/galvanized), 6mm diameter   |  40 € | [Thorlabs, Edmund Optics ?]()  |
+| M3 Screws | Various |  1 € | [Various]()  |
+
+
+### Design files
+The original design files are in the [INVENTOR](./INVENTOR) folder. *FOR ANOTHER FORMAT, GET YOUR OWN FOLDER.*
+
+
+
 
 ### Problems with the Nebra Anybeam
 
