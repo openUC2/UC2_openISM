@@ -132,8 +132,8 @@ All these files need to be printed. We used a Prusa i3 MK3 using PLA Prusament (
 
 Parts to print:
 
-* 1× [openISM AnyBeam Mount](./STL/20_Cube_insert_openISM_AnyBeamMount.stl)
-* 1× [Cube insert openISM vase v3](./STL/20_Cube_insert_openISM_vase_v3.stl)
+* 1× [openISM AnyBeam Mount](./CAD/20_Cube_insert_openISM_AnyBeamMount.stl)
+* 1× [Cube insert openISM vase v3](./CAD/20_Cube_insert_openISM_vase_v3.stl)
 
 
 ### Additional parts
